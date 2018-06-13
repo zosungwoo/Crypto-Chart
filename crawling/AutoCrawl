@@ -1,0 +1,3 @@
+
+
+30 *    * * *   loncle  cd /home/loncle/crawling && scrapy crawl crawler >> /home/loncle/crawling/cronlog.log 2>&1

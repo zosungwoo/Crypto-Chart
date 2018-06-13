@@ -1,0 +1,1245 @@
+2017-11-16 03:23:29 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 03:23:29 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 03:23:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 03:23:30 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47765/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 03:23:54 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:23:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 03:23:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 03:23:54 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 03:23:54 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 03:23:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 03:23:54 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 03:23:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 03:23:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 03:23:55 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47765/session/4189f7ca-5e89-412d-8531-8347864067e8/url {"url": "https://www.bithumb.com/", "sessionId": "4189f7ca-5e89-412d-8531-8347864067e8"}
+2017-11-16 03:24:15 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:24:15 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47765/session/4189f7ca-5e89-412d-8531-8347864067e8/element {"using": "xpath", "sessionId": "4189f7ca-5e89-412d-8531-8347864067e8", "value": "//*"}
+2017-11-16 03:24:21 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:24:21 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47765/session/4189f7ca-5e89-412d-8531-8347864067e8/execute/sync {"sessionId": "4189f7ca-5e89-412d-8531-8347864067e8", "args": [{"element-6066-11e4-a52e-4f735466cecf": "3cc67613-2d63-4258-9765-9822805238fe", "ELEMENT": "3cc67613-2d63-4258-9765-9822805238fe"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 03:24:21 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-24'}
+2017-11-16 03:24:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 03:24:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17386,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 18, 24, 21, 967676),
+ 'item_scraped_count': 46,
+ 'log_count/DEBUG': 57,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53297152,
+ 'memusage/startup': 53297152,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 18, 23, 54, 862350)}
+2017-11-16 03:24:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 03:25:04 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 03:25:04 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 03:25:04 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 03:25:05 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34107/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 03:25:44 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:25:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 03:25:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 03:25:44 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 03:25:44 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 03:25:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 03:25:44 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 03:25:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 03:25:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 03:25:44 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34107/session/e451f09c-f03b-4d11-8086-8bded7c2e236/url {"url": "https://www.bithumb.com/", "sessionId": "e451f09c-f03b-4d11-8086-8bded7c2e236"}
+2017-11-16 03:26:09 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:26:09 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34107/session/e451f09c-f03b-4d11-8086-8bded7c2e236/element {"using": "xpath", "sessionId": "e451f09c-f03b-4d11-8086-8bded7c2e236", "value": "//*"}
+2017-11-16 03:26:10 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:26:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34107/session/e451f09c-f03b-4d11-8086-8bded7c2e236/execute/sync {"sessionId": "e451f09c-f03b-4d11-8086-8bded7c2e236", "args": [{"element-6066-11e4-a52e-4f735466cecf": "514c2d0f-d666-4f07-83f9-6f1bc9a24bd2", "ELEMENT": "514c2d0f-d666-4f07-83f9-6f1bc9a24bd2"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 03:26:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,180,000 \uc6d0',
+ 'date': '2017-11-16-03-26'}
+2017-11-16 03:26:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 03:26:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17407,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 18, 26, 11, 798344),
+ 'item_scraped_count': 46,
+ 'log_count/DEBUG': 57,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53145600,
+ 'memusage/startup': 53145600,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 18, 25, 44, 570902)}
+2017-11-16 03:26:11 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 03:35:27 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 03:35:27 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter', 'SPIDER_MODULES': ['crawling.spiders'], 'BOT_NAME': 'crawling', 'LOGSTATS_INTERVAL': 0, 'LOG_FILE': 'logfile.log'}
+2017-11-16 03:35:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 03:35:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 03:35:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 03:35:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 03:35:27 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 03:35:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:41407/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 03:36:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:36:12 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 03:36:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 03:36:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 03:37:35 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:38947/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 03:38:13 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:38:24 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:38947/session/02940df2-dc08-4df3-ab47-3cd28563a72a/url {"url": "https://www.bithumb.com/", "sessionId": "02940df2-dc08-4df3-ab47-3cd28563a72a"}
+2017-11-16 03:39:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:39:14 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:38947/session/02940df2-dc08-4df3-ab47-3cd28563a72a/element {"using": "xpath", "sessionId": "02940df2-dc08-4df3-ab47-3cd28563a72a", "value": "//*"}
+2017-11-16 03:39:15 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 03:39:15 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:38947/session/02940df2-dc08-4df3-ab47-3cd28563a72a/execute/sync {"sessionId": "02940df2-dc08-4df3-ab47-3cd28563a72a", "args": [{"element-6066-11e4-a52e-4f735466cecf": "e9ff05aa-bcc3-467e-b9e2-ce68acfa0285", "ELEMENT": "e9ff05aa-bcc3-467e-b9e2-ce68acfa0285"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 03:39:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:01:21 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:01:21 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:01:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:01:22 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36185/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:02:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:02:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 04:02:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 04:02:06 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 04:02:06 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 04:02:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 04:02:06 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 04:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 04:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 04:02:06 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36185/session/5f0d6bbe-5ebc-4dc1-aace-912630dfa7da/url {"url": "https://www.bithumb.com/", "sessionId": "5f0d6bbe-5ebc-4dc1-aace-912630dfa7da"}
+2017-11-16 04:02:59 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:02:59 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36185/session/5f0d6bbe-5ebc-4dc1-aace-912630dfa7da/element {"using": "xpath", "sessionId": "5f0d6bbe-5ebc-4dc1-aace-912630dfa7da", "value": "//*"}
+2017-11-16 04:03:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:03:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36185/session/5f0d6bbe-5ebc-4dc1-aace-912630dfa7da/execute/sync {"sessionId": "5f0d6bbe-5ebc-4dc1-aace-912630dfa7da", "args": [{"element-6066-11e4-a52e-4f735466cecf": "be40519b-0c43-454c-8eef-bcfb3b7372eb", "ELEMENT": "be40519b-0c43-454c-8eef-bcfb3b7372eb"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 04:03:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:03:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,176,000 \uc6d0',
+ 'date': '2017-11-16-04-03'}
+2017-11-16 04:03:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 04:03:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17346,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 19, 3, 3, 25531),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53125120,
+ 'memusage/startup': 53125120,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 19, 2, 6, 647679)}
+2017-11-16 04:03:03 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 04:05:39 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:05:39 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:05:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:05:40 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:59177/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:06:41 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:06:41 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-11-16 04:06:41 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1386, in _inlineCallbacks
+    result = g.send(result)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/crawler.py", line 95, in crawl
+    six.reraise(*exc_info)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/crawler.py", line 76, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/crawler.py", line 99, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spiders/__init__.py", line 51, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "/home/loncle/crawling/crawling/spiders/crawlingSpider.py", line 17, in __init__
+    self.browser = webdriver.Firefox()
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/selenium/webdriver/firefox/webdriver.py", line 154, in __init__
+    keep_alive=True)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 151, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 240, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: connection refused
+
+2017-11-16 04:07:05 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:07:05 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:07:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:07:06 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:37243/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:07:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:07:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 04:07:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 04:07:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 04:07:18 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 04:07:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 04:07:18 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 04:07:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 04:07:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 04:07:18 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:37243/session/060a94b1-de6b-43e4-97b5-51f27f004dfd/url {"url": "https://www.bithumb.com/", "sessionId": "060a94b1-de6b-43e4-97b5-51f27f004dfd"}
+2017-11-16 04:07:29 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:07:29 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:37243/session/060a94b1-de6b-43e4-97b5-51f27f004dfd/element {"using": "xpath", "sessionId": "060a94b1-de6b-43e4-97b5-51f27f004dfd", "value": "//*"}
+2017-11-16 04:07:29 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:07:29 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:37243/session/060a94b1-de6b-43e4-97b5-51f27f004dfd/execute/sync {"sessionId": "060a94b1-de6b-43e4-97b5-51f27f004dfd", "args": [{"element-6066-11e4-a52e-4f735466cecf": "60fa1993-c050-4f01-9a78-84892538df7b", "ELEMENT": "60fa1993-c050-4f01-9a78-84892538df7b"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 04:07:29 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:07:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bithumb.com/> (referer: None)
+Traceback (most recent call last):
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/loncle/crawling/crawling/spiders/crawlingSpider.py", line 28, in parse
+    item['coinName'] = sel.xpath('/td[@class="click"]/text()').extract()[0]
+IndexError: list index out of range
+2017-11-16 04:07:29 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 04:07:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17399,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 19, 7, 29, 989165),
+ 'log_count/DEBUG': 11,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53501952,
+ 'memusage/startup': 53501952,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 19, 7, 18, 73176)}
+2017-11-16 04:07:29 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 04:08:18 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:08:18 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:08:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:08:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36807/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:08:55 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:08:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 04:08:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 04:08:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 04:08:56 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 04:08:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 04:08:56 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 04:08:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 04:08:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 04:08:56 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36807/session/4f58ce93-b3c9-4e67-ae0c-11e13975b6b8/url {"url": "https://www.bithumb.com/", "sessionId": "4f58ce93-b3c9-4e67-ae0c-11e13975b6b8"}
+2017-11-16 04:09:16 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:09:16 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36807/session/4f58ce93-b3c9-4e67-ae0c-11e13975b6b8/element {"using": "xpath", "sessionId": "4f58ce93-b3c9-4e67-ae0c-11e13975b6b8", "value": "//*"}
+2017-11-16 04:09:16 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:09:16 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:36807/session/4f58ce93-b3c9-4e67-ae0c-11e13975b6b8/execute/sync {"sessionId": "4f58ce93-b3c9-4e67-ae0c-11e13975b6b8", "args": [{"element-6066-11e4-a52e-4f735466cecf": "50900182-398d-4378-a062-2328c017b5f3", "ELEMENT": "50900182-398d-4378-a062-2328c017b5f3"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 04:09:16 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:09:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bithumb.com/> (referer: None)
+Traceback (most recent call last):
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/loncle/.virtualenvs/crawling/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/loncle/crawling/crawling/spiders/crawlingSpider.py", line 28, in parse
+    item['coinName'] = sel.xpath('/td[@class="click"]/text()').extract()[0]
+IndexError: list index out of range
+2017-11-16 04:09:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 04:09:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17389,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 19, 9, 16, 606466),
+ 'log_count/DEBUG': 11,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53116928,
+ 'memusage/startup': 53116928,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 19, 8, 56, 43382)}
+2017-11-16 04:09:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 04:10:06 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:10:06 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:10:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:10:07 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49811/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:10:47 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:10:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 04:10:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 04:10:47 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 04:10:47 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 04:10:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 04:10:47 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 04:10:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 04:10:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 04:10:48 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49811/session/f0f77226-ae15-4839-bad1-1ab682b9c194/url {"url": "https://www.bithumb.com/", "sessionId": "f0f77226-ae15-4839-bad1-1ab682b9c194"}
+2017-11-16 04:11:27 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:11:27 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49811/session/f0f77226-ae15-4839-bad1-1ab682b9c194/element {"using": "xpath", "sessionId": "f0f77226-ae15-4839-bad1-1ab682b9c194", "value": "//*"}
+2017-11-16 04:11:29 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:11:29 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49811/session/f0f77226-ae15-4839-bad1-1ab682b9c194/execute/sync {"sessionId": "f0f77226-ae15-4839-bad1-1ab682b9c194", "args": [{"element-6066-11e4-a52e-4f735466cecf": "3d8c657e-ef5a-4faa-8769-962b6f1f6212", "ELEMENT": "3d8c657e-ef5a-4faa-8769-962b6f1f6212"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 04:11:36 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,164,000 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 ',
+ 'coinPrice': u'378,450 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub300\uc2dc ',
+ 'coinPrice': u'484,000 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub77c\uc774\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'72,720 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 \ud074\ub798\uc2dd ',
+ 'coinPrice': u'19,460 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub9ac\ud50c ',
+ 'coinPrice': u'237 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 \uce90\uc2dc ',
+ 'coinPrice': u'1,419,500 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ubaa8\ub124\ub85c ',
+ 'coinPrice': u'137,900 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc81c\ud2b8\uce90\uc2dc ',
+ 'coinPrice': u'325,550 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ud000\ud140 ',
+ 'coinPrice': u'13,050 \uc6d0',
+ 'date': '2017-11-16-04-11'}
+2017-11-16 04:11:36 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 04:11:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17386,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 19, 11, 36, 877614),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53301248,
+ 'memusage/startup': 53301248,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 19, 10, 47, 948393)}
+2017-11-16 04:11:36 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 04:14:49 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:14:49 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:14:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:14:50 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50141/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:15:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:15:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 04:15:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 04:15:33 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 04:15:33 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 04:15:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 04:15:33 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 04:15:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 04:15:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 04:15:33 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50141/session/6af02bda-e216-40fb-aff4-5a5c30762998/url {"url": "https://www.bithumb.com/", "sessionId": "6af02bda-e216-40fb-aff4-5a5c30762998"}
+2017-11-16 04:16:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:16:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50141/session/6af02bda-e216-40fb-aff4-5a5c30762998/element {"using": "xpath", "sessionId": "6af02bda-e216-40fb-aff4-5a5c30762998", "value": "//*"}
+2017-11-16 04:16:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:16:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50141/session/6af02bda-e216-40fb-aff4-5a5c30762998/execute/sync {"sessionId": "6af02bda-e216-40fb-aff4-5a5c30762998", "args": [{"element-6066-11e4-a52e-4f735466cecf": "df4fe9b3-c3f2-42a3-9923-4008cc499f3c", "ELEMENT": "df4fe9b3-c3f2-42a3-9923-4008cc499f3c"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 04:16:04 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,204,000 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 ',
+ 'coinPrice': u'378,600 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub300\uc2dc ',
+ 'coinPrice': u'484,800 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub77c\uc774\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'72,750 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 \ud074\ub798\uc2dd ',
+ 'coinPrice': u'19,485 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub9ac\ud50c ',
+ 'coinPrice': u'237 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 \uce90\uc2dc ',
+ 'coinPrice': u'1,402,100 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ubaa8\ub124\ub85c ',
+ 'coinPrice': u'137,910 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc81c\ud2b8\uce90\uc2dc ',
+ 'coinPrice': u'320,000 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ud000\ud140 ',
+ 'coinPrice': u'13,025 \uc6d0',
+ 'date': '2017-11-16-04-16'}
+2017-11-16 04:16:04 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 04:16:04 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17414,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 19, 16, 4, 685361),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53149696,
+ 'memusage/startup': 53149696,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 19, 15, 33, 678827)}
+2017-11-16 04:16:04 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 04:17:27 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:17:27 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:17:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:17:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34541/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:18:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:18:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 04:18:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 04:18:17 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 04:18:17 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 04:18:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 04:18:17 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 04:18:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 04:18:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 04:18:17 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34541/session/b1ba78eb-f056-43cb-a8ef-55fd0c3730d2/url {"url": "https://www.bithumb.com/", "sessionId": "b1ba78eb-f056-43cb-a8ef-55fd0c3730d2"}
+2017-11-16 04:20:27 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:20:27 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34541/session/b1ba78eb-f056-43cb-a8ef-55fd0c3730d2/element {"using": "xpath", "sessionId": "b1ba78eb-f056-43cb-a8ef-55fd0c3730d2", "value": "//*"}
+2017-11-16 04:20:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:20:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:34541/session/b1ba78eb-f056-43cb-a8ef-55fd0c3730d2/execute/sync {"sessionId": "b1ba78eb-f056-43cb-a8ef-55fd0c3730d2", "args": [{"element-6066-11e4-a52e-4f735466cecf": "54ff64a6-b4f9-44f0-b498-f3096aa3170a", "ELEMENT": "54ff64a6-b4f9-44f0-b498-f3096aa3170a"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 04:20:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,217,000 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.extensions.logstats] INFO: Crawled 2 pages (at 2 pages/min), scraped 1 items (at 1 items/min)
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 ',
+ 'coinPrice': u'378,000 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub300\uc2dc ',
+ 'coinPrice': u'483,100 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub77c\uc774\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'72,900 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 \ud074\ub798\uc2dd ',
+ 'coinPrice': u'19,470 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub9ac\ud50c ',
+ 'coinPrice': u'237 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 \uce90\uc2dc ',
+ 'coinPrice': u'1,401,700 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ubaa8\ub124\ub85c ',
+ 'coinPrice': u'137,870 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc81c\ud2b8\uce90\uc2dc ',
+ 'coinPrice': u'323,250 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ud000\ud140 ',
+ 'coinPrice': u'13,030 \uc6d0',
+ 'date': '2017-11-16-04-20'}
+2017-11-16 04:20:28 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 04:20:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17334,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 19, 20, 28, 859288),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 8,
+ 'memusage/max': 59670528,
+ 'memusage/startup': 53133312,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 19, 18, 17, 573790)}
+2017-11-16 04:20:28 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-16 04:26:14 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: crawling)
+2017-11-16 04:26:14 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['crawling.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'crawling'}
+2017-11-16 04:26:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-16 04:26:15 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47463/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-11-16 04:26:52 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:26:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-16 04:26:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-16 04:26:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-16 04:26:52 [scrapy.core.engine] INFO: Spider opened
+2017-11-16 04:26:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-16 04:26:52 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-16 04:26:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/robots.txt> (referer: None)
+2017-11-16 04:26:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.bithumb.com/> (referer: None)
+2017-11-16 04:26:52 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47463/session/faabe3eb-e5ef-480b-81bd-0db2ff254f04/url {"url": "https://www.bithumb.com/", "sessionId": "faabe3eb-e5ef-480b-81bd-0db2ff254f04"}
+2017-11-16 04:26:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:26:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47463/session/faabe3eb-e5ef-480b-81bd-0db2ff254f04/element {"using": "xpath", "sessionId": "faabe3eb-e5ef-480b-81bd-0db2ff254f04", "value": "//*"}
+2017-11-16 04:26:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:26:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47463/session/faabe3eb-e5ef-480b-81bd-0db2ff254f04/execute/sync {"sessionId": "faabe3eb-e5ef-480b-81bd-0db2ff254f04", "args": [{"element-6066-11e4-a52e-4f735466cecf": "74517c7b-57a5-400a-b7fb-3832145d5ba6", "ELEMENT": "74517c7b-57a5-400a-b7fb-3832145d5ba6"}, "outerHTML"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2017-11-16 04:26:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'8,239,000 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 ',
+ 'coinPrice': u'377,750 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub300\uc2dc ',
+ 'coinPrice': u'483,000 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub77c\uc774\ud2b8\ucf54\uc778 ',
+ 'coinPrice': u'72,900 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc774\ub354\ub9ac\uc6c0 \ud074\ub798\uc2dd ',
+ 'coinPrice': u'19,460 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ub9ac\ud50c ',
+ 'coinPrice': u'237 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ube44\ud2b8\ucf54\uc778 \uce90\uc2dc ',
+ 'coinPrice': u'1,399,100 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ubaa8\ub124\ub85c ',
+ 'coinPrice': u'137,740 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\uc81c\ud2b8\uce90\uc2dc ',
+ 'coinPrice': u'322,700 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.bithumb.com/>
+{'coinName': u'\ud000\ud140 ',
+ 'coinPrice': u'13,030 \uc6d0',
+ 'date': '2017-11-16 04:26'}
+2017-11-16 04:26:57 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-16 04:26:57 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 498,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17397,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 15, 19, 26, 57, 996045),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53420032,
+ 'memusage/startup': 53420032,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 15, 19, 26, 52, 228263)}
+2017-11-16 04:26:57 [scrapy.core.engine] INFO: Spider closed (finished)

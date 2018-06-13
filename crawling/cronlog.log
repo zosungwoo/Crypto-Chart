@@ -1,0 +1,172 @@
+2017-12-16 03:30:01 [scrapy] INFO: Scrapy 1.0.3 started (bot: crawling)
+2017-12-16 03:30:01 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-12-16 03:30:01 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'SPIDER_MODULES': ['crawling.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'crawling'}
+2017-12-16 03:30:02 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-12-16 03:30:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:41905/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-12-16 03:30:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+Unhandled error in Deferred:
+2017-12-16 03:30:03 [twisted] CRITICAL: Unhandled error in Deferred:
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/cmdline.py", line 150, in _run_command
+    cmd.run(args, opts)
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 57, in run
+    self.crawler_process.crawl(spname, **opts.spargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1274, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1128, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/spiders/__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "/home/loncle/crawling/crawling/spiders/crawlingSpider.py", line 18, in __init__
+    self.browser = webdriver.Firefox()
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/firefox/webdriver.py", line 158, in __init__
+    keep_alive=True)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 154, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 243, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status: 1
+
+2017-12-16 03:30:03 [twisted] CRITICAL: 
+2017-12-16 14:30:05 [scrapy] INFO: Scrapy 1.0.3 started (bot: crawling)
+2017-12-16 14:30:05 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-12-16 14:30:05 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'SPIDER_MODULES': ['crawling.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'crawling'}
+2017-12-16 14:30:06 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-12-16 14:30:07 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50979/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-12-16 14:30:08 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+Unhandled error in Deferred:
+2017-12-16 14:30:08 [twisted] CRITICAL: Unhandled error in Deferred:
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/cmdline.py", line 150, in _run_command
+    cmd.run(args, opts)
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 57, in run
+    self.crawler_process.crawl(spname, **opts.spargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1274, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1128, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/spiders/__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "/home/loncle/crawling/crawling/spiders/crawlingSpider.py", line 18, in __init__
+    self.browser = webdriver.Firefox()
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/firefox/webdriver.py", line 158, in __init__
+    keep_alive=True)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 154, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 243, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status: 1
+
+2017-12-16 14:30:08 [twisted] CRITICAL: 
+2017-12-16 15:30:01 [scrapy] INFO: Scrapy 1.0.3 started (bot: crawling)
+2017-12-16 15:30:01 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-12-16 15:30:01 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'SPIDER_MODULES': ['crawling.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'crawling'}
+2017-12-16 15:30:02 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-12-16 15:30:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:35323/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-12-16 15:30:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+Unhandled error in Deferred:
+2017-12-16 15:30:03 [twisted] CRITICAL: Unhandled error in Deferred:
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/cmdline.py", line 150, in _run_command
+    cmd.run(args, opts)
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 57, in run
+    self.crawler_process.crawl(spname, **opts.spargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1274, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1128, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/spiders/__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "/home/loncle/crawling/crawling/spiders/crawlingSpider.py", line 18, in __init__
+    self.browser = webdriver.Firefox()
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/firefox/webdriver.py", line 158, in __init__
+    keep_alive=True)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 154, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 243, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status: 1
+
+2017-12-16 15:30:03 [twisted] CRITICAL: 
+2017-12-16 16:30:01 [scrapy] INFO: Scrapy 1.0.3 started (bot: crawling)
+2017-12-16 16:30:01 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-12-16 16:30:01 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawling.spiders', 'SPIDER_MODULES': ['crawling.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'crawling'}
+2017-12-16 16:30:02 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-12-16 16:30:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:60845/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox"}}
+2017-12-16 16:30:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+Unhandled error in Deferred:
+2017-12-16 16:30:03 [twisted] CRITICAL: Unhandled error in Deferred:
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/cmdline.py", line 150, in _run_command
+    cmd.run(args, opts)
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 57, in run
+    self.crawler_process.crawl(spname, **opts.spargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1274, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1128, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/scrapy/spiders/__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "/home/loncle/crawling/crawling/spiders/crawlingSpider.py", line 18, in __init__
+    self.browser = webdriver.Firefox()
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/firefox/webdriver.py", line 158, in __init__
+    keep_alive=True)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 154, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 243, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status: 1
+
+2017-12-16 16:30:03 [twisted] CRITICAL: 

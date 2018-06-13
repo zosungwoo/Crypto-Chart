@@ -1,0 +1,589 @@
+1513326767057	geckodriver	INFO	geckodriver 0.19.1
+1513326767064	geckodriver	INFO	Listening on 127.0.0.1:37207
+1513326768364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SpcsJeA0DyO4"
+Error: GDK_BACKEND does not match available displays
+1513326773160	geckodriver	INFO	geckodriver 0.19.1
+1513326773169	geckodriver	INFO	Listening on 127.0.0.1:58705
+1513326774468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.McNbqmUznprL"
+Error: GDK_BACKEND does not match available displays
+1513327006648	geckodriver	INFO	geckodriver 0.19.1
+1513327006655	geckodriver	INFO	Listening on 127.0.0.1:57203
+1513327007954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ogAtiYn0YtZ9"
+Error: GDK_BACKEND does not match available displays
+1513327207659	geckodriver	INFO	geckodriver 0.19.1
+1513327207666	geckodriver	INFO	Listening on 127.0.0.1:57037
+1513327208982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DWwjhnFgaBV7"
+Error: GDK_BACKEND does not match available displays
+1513327823983	geckodriver	INFO	geckodriver 0.19.1
+1513327823993	geckodriver	INFO	Listening on 127.0.0.1:44351
+1513327825290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GxBGBUc9e3sW"
+1513327827947	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513327829075	Marionette	INFO	Enabled via --marionette
+1513327847556	Marionette	INFO	Listening on port 33487
+1513327847614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513327847696	Marionette	DEBUG	Register listener.js for window 2147483649
+1513327849397	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513327849587	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513327849588	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513327856383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513327864357	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1513327946411	geckodriver	INFO	geckodriver 0.19.1
+1513327946418	geckodriver	INFO	Listening on 127.0.0.1:50251
+1513327947717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xZira9s1KThp"
+1513327950183	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513327951188	Marionette	INFO	Enabled via --marionette
+1513327960468	Marionette	INFO	Listening on port 41747
+1513327960615	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513327960714	Marionette	DEBUG	Register listener.js for window 2147483649
+1513327962627	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513327962747	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513327962748	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513327967095	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513327972808	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513328082560	geckodriver	INFO	geckodriver 0.19.1
+1513328082567	geckodriver	INFO	Listening on 127.0.0.1:41299
+1513328083934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.B3h2OHHEjTZp"
+1513328088003	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513328089141	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400AB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x860006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+Extension error: TypeError: this.extension is null resource://gre/modules/LegacyExtensionsUtils.jsm 158
+[[Exception stack
+onBeforeStarted@resource://gre/modules/LegacyExtensionsUtils.jsm:158:9
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:61:14
+emit/promises<@resource://gre/modules/ExtensionUtils.jsm:256:55
+emit@resource://gre/modules/ExtensionUtils.jsm:255:20
+emit@resource://gre/modules/Extension.jsm:892:37
+_startup@resource://gre/modules/Extension.jsm:1166:7
+observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+emit/promises<@resource://gre/modules/ExtensionUtils.jsm:256:55
+emit@resource://gre/modules/ExtensionUtils.jsm:255:20
+emit@resource://gre/modules/Extension.jsm:892:37
+_startup@resource://gre/modules/Extension.jsm:1166:7
+observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+]]
+Extension error: TypeError: this.extension is null resource://gre/modules/LegacyExtensionsUtils.jsm 158
+[[Exception stack
+onBeforeStarted@resource://gre/modules/LegacyExtensionsUtils.jsm:158:9
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:61:14
+emit/promises<@resource://gre/modules/ExtensionUtils.jsm:256:55
+emit@resource://gre/modules/ExtensionUtils.jsm:255:20
+emit@resource://gre/modules/Extension.jsm:892:37
+build@chrome://extensions/content/ext-backgroundPage.js:55:5
+observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+emit/promises<@resource://gre/modules/ExtensionUtils.jsm:256:55
+emit@resource://gre/modules/ExtensionUtils.jsm:255:20
+emit@resource://gre/modules/Extension.jsm:892:37
+build@chrome://extensions/content/ext-backgroundPage.js:55:5
+observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+]]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1513328151632	geckodriver	INFO	geckodriver 0.19.1
+1513328151640	geckodriver	INFO	Listening on 127.0.0.1:58937
+1513328152965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FmZxSvGPIp07"
+1513328155449	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513328156422	Marionette	INFO	Enabled via --marionette
+1513328166493	Marionette	INFO	Listening on port 37427
+1513328166629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513328166726	Marionette	DEBUG	Register listener.js for window 2147483649
+1513328168275	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513328168420	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513328168421	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513328175483	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513328178033	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513328387524	geckodriver	INFO	geckodriver 0.19.1
+1513328387532	geckodriver	INFO	Listening on 127.0.0.1:53373
+1513328388838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fAQ8wpIzPRZ3"
+1513328391356	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513328392381	Marionette	INFO	Enabled via --marionette
+1513328400722	Marionette	INFO	Listening on port 43297
+1513328400830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513328400929	Marionette	DEBUG	Register listener.js for window 2147483649
+1513328402439	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513328402737	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513328402738	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513328407788	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513328417711	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 6695] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513328582857	geckodriver	INFO	geckodriver 0.19.1
+1513328582863	geckodriver	INFO	Listening on 127.0.0.1:56173
+1513328584172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.z8lFJS8dAwPf"
+1513328586657	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513328587686	Marionette	INFO	Enabled via --marionette
+1513328595412	Marionette	INFO	Listening on port 46781
+1513328595459	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513328595545	Marionette	DEBUG	Register listener.js for window 2147483649
+1513328597069	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513328597224	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513328597224	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513328602061	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513328604606	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513328604771	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513328650629	geckodriver	INFO	geckodriver 0.19.1
+1513328650637	geckodriver	INFO	Listening on 127.0.0.1:40057
+1513328651942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sJJay7mg125b"
+1513328654414	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513328655440	Marionette	INFO	Enabled via --marionette
+1513328663185	Marionette	INFO	Listening on port 37549
+1513328663231	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513328663317	Marionette	DEBUG	Register listener.js for window 2147483649
+1513328664933	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513328665063	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513328665064	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513328669287	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513328673917	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513328676894	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 6956] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6956] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513328719251	geckodriver	INFO	geckodriver 0.19.1
+1513328719260	geckodriver	INFO	Listening on 127.0.0.1:40753
+1513328720568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0reD2pBu2pOG"
+1513328723049	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513328723997	Marionette	INFO	Enabled via --marionette
+1513328732468	Marionette	INFO	Listening on port 42547
+1513328732573	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513328732650	Marionette	DEBUG	Register listener.js for window 2147483649
+1513328734114	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513328734258	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513328734258	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513328739402	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513328745479	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513329100132	geckodriver	INFO	geckodriver 0.19.1
+1513329100139	geckodriver	INFO	Listening on 127.0.0.1:36355
+1513329101444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FN27MPDsnpLc"
+1513329103937	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513329104952	Marionette	INFO	Enabled via --marionette
+1513329114441	Marionette	INFO	Listening on port 37661
+1513329114880	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513329114948	Marionette	DEBUG	Register listener.js for window 2147483649
+1513329116396	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513329116975	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513329116975	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513329121513	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513329130412	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 7287] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513329186772	geckodriver	INFO	geckodriver 0.19.1
+1513329186780	geckodriver	INFO	Listening on 127.0.0.1:36547
+1513329188085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WweG8bAVnQrm"
+1513329190580	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513329191530	Marionette	INFO	Enabled via --marionette
+1513329201602	Marionette	INFO	Listening on port 34845
+1513329201677	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513329201743	Marionette	DEBUG	Register listener.js for window 2147483649
+1513329203184	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513329203345	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513329203345	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513329208125	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513329216730	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513354265621	geckodriver	INFO	geckodriver 0.19.1
+1513354265627	geckodriver	INFO	Listening on 127.0.0.1:41637
+1513354266923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YBC5Ky272rPZ"
+1513354269421	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513354270429	Marionette	INFO	Enabled via --marionette
+1513354280697	Marionette	INFO	Listening on port 35943
+1513354280818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513354280889	Marionette	DEBUG	Register listener.js for window 2147483649
+1513354282372	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513354282501	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513354282502	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513354287765	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513354291415	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 10491] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513354326586	geckodriver	INFO	geckodriver 0.19.1
+1513354326595	geckodriver	INFO	Listening on 127.0.0.1:41379
+1513354327891	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.v5xfLbM4NCt2"
+1513354330364	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513354331343	Marionette	INFO	Enabled via --marionette
+1513354340341	Marionette	INFO	Listening on port 45035
+1513354340390	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513354340459	Marionette	DEBUG	Register listener.js for window 2147483649
+1513354342028	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513354342431	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513354342431	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513354350486	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513354358970	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 10616] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10616] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513354501001	geckodriver	INFO	geckodriver 0.19.1
+1513354501008	geckodriver	INFO	Listening on 127.0.0.1:50043
+1513354502308	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.epo1gOTvEoiU"
+1513354504792	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513354505757	Marionette	INFO	Enabled via --marionette
+1513354514271	Marionette	INFO	Listening on port 32839
+1513354514401	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513354514474	Marionette	DEBUG	Register listener.js for window 2147483649
+1513354515919	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513354516033	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513354516033	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513354522797	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513354532822	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 10749] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513355202802	geckodriver	INFO	geckodriver 0.19.1
+1513355202810	geckodriver	INFO	Listening on 127.0.0.1:57201
+1513355204106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.R840MaD8aLCZ"
+1513355206615	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513355207569	Marionette	INFO	Enabled via --marionette
+1513355216924	Marionette	INFO	Listening on port 33029
+1513355217017	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513355217124	Marionette	DEBUG	Register listener.js for window 2147483649
+1513355218575	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513355218703	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513355218703	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513355225538	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513355235311	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 11032] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513355357492	geckodriver	INFO	geckodriver 0.19.1
+1513355357500	geckodriver	INFO	Listening on 127.0.0.1:43807
+1513355358798	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SVWx91MoA2Uq"
+1513355361269	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513355362331	Marionette	INFO	Enabled via --marionette
+1513355370903	Marionette	INFO	Listening on port 40705
+1513355370982	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513355371058	Marionette	DEBUG	Register listener.js for window 2147483649
+1513355372556	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513355372727	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513355372728	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513355380202	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513355390152	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 11166] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513355458884	geckodriver	INFO	geckodriver 0.19.1
+1513355458893	geckodriver	INFO	Listening on 127.0.0.1:50095
+1513355460198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.cRDHmHX40ZiH"
+1513355462675	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513355463715	Marionette	INFO	Enabled via --marionette
+1513355472836	Marionette	INFO	Listening on port 40379
+1513355472894	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513355472979	Marionette	DEBUG	Register listener.js for window 2147483649
+1513355474480	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513355474607	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513355474608	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513355481029	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513355490802	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513356036137	geckodriver	INFO	geckodriver 0.19.1
+1513356036145	geckodriver	INFO	Listening on 127.0.0.1:41949
+1513356037440	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.UhqQBChUH1RP"
+1513356039953	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513356040901	Marionette	INFO	Enabled via --marionette
+1513356053423	Marionette	INFO	Listening on port 46215
+1513356053531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513356053606	Marionette	DEBUG	Register listener.js for window 2147483649
+1513356055057	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513356055203	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513356055204	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513356060473	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513356071268	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513356155230	geckodriver	INFO	geckodriver 0.19.1
+1513356155237	geckodriver	INFO	Listening on 127.0.0.1:54677
+1513356156535	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eusnZU8kcRbC"
+1513356159106	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513356160151	Marionette	INFO	Enabled via --marionette
+1513356170178	Marionette	INFO	Listening on port 38327
+1513356170253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513356170346	Marionette	DEBUG	Register listener.js for window 2147483649
+1513356171856	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513356172626	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513356172626	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513356178947	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513356180628	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513356288423	geckodriver	INFO	geckodriver 0.19.1
+1513356288430	geckodriver	INFO	Listening on 127.0.0.1:33657
+1513356289734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gjujQX6e6itE"
+1513356292269	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513356293297	Marionette	INFO	Enabled via --marionette
+1513356302936	Marionette	INFO	Listening on port 33431
+1513356303038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513356303112	Marionette	DEBUG	Register listener.js for window 2147483649
+1513356361843	geckodriver	INFO	geckodriver 0.19.1
+1513356361850	geckodriver	INFO	Listening on 127.0.0.1:43113
+1513356363155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CYy2t3MD5A9p"
+1513356365670	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513356366679	Marionette	INFO	Enabled via --marionette
+1513356376917	Marionette	INFO	Listening on port 36489
+1513356376970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513356377052	Marionette	DEBUG	Register listener.js for window 2147483649
+1513356378587	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513356378739	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513356378740	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513356389183	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513356402135	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 11896] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513356432078	geckodriver	INFO	geckodriver 0.19.1
+1513356432085	geckodriver	INFO	Listening on 127.0.0.1:35475
+1513356433386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ERANaIL8lLG1"
+1513356435929	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513356436888	Marionette	INFO	Enabled via --marionette
+1513356447256	Marionette	INFO	Listening on port 44969
+1513356447368	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513356447439	Marionette	DEBUG	Register listener.js for window 2147483649
+1513356448880	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513356449006	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513356449007	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513356454471	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513356461079	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513356875666	geckodriver	INFO	geckodriver 0.19.1
+1513356875673	geckodriver	INFO	Listening on 127.0.0.1:57315
+1513356876969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QUycqG4z4jPC"
+1513356879534	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513356880478	Marionette	INFO	Enabled via --marionette
+1513356891294	Marionette	INFO	Listening on port 40675
+1513356891432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513356891508	Marionette	DEBUG	Register listener.js for window 2147483649
+1513356893465	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513356893837	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513356893837	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513356902410	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513356913346	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513356916289	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 12165] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513357085438	geckodriver	INFO	geckodriver 0.19.1
+1513357085445	geckodriver	INFO	Listening on 127.0.0.1:42941
+1513357086747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bpd5OmqiYNg9"
+1513357089245	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513357090221	Marionette	INFO	Enabled via --marionette
+1513357099303	Marionette	INFO	Listening on port 36729
+1513357099333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513357099417	Marionette	DEBUG	Register listener.js for window 2147483649
+1513357100897	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513357101019	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513357101020	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513357107848	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513357116827	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 12309] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513357337028	geckodriver	INFO	geckodriver 0.19.1
+1513357337036	geckodriver	INFO	Listening on 127.0.0.1:40895
+1513357338335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.M9hpcvC9m1V4"
+1513357340909	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513357341855	Marionette	INFO	Enabled via --marionette
+1513357351223	Marionette	INFO	Listening on port 34249
+1513357351314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513357351406	Marionette	DEBUG	Register listener.js for window 2147483649
+1513357352954	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513357353088	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513357353088	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513357359622	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513357370606	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513357657238	geckodriver	INFO	geckodriver 0.19.1
+1513357657245	geckodriver	INFO	Listening on 127.0.0.1:36051
+1513357658550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Oa6QC5fFMofb"
+1513357661016	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513357662011	Marionette	INFO	Enabled via --marionette
+1513357670333	Marionette	INFO	Listening on port 41853
+1513357670426	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513357670502	Marionette	DEBUG	Register listener.js for window 2147483649
+1513357671995	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513357672123	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513357672124	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513357681862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513357693025	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 12588] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12588] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513357748652	geckodriver	INFO	geckodriver 0.19.1
+1513357748658	geckodriver	INFO	Listening on 127.0.0.1:54027
+1513357749959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MHrCrZOILbzN"
+1513357752450	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513357753404	Marionette	INFO	Enabled via --marionette
+1513357761675	Marionette	INFO	Listening on port 41319
+1513357761744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513357761830	Marionette	DEBUG	Register listener.js for window 2147483649
+1513357763298	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513357763412	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513357763413	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513357770512	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513357801553	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 12749] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513358173849	geckodriver	INFO	geckodriver 0.19.1
+1513358173855	geckodriver	INFO	Listening on 127.0.0.1:58377
+1513358175162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZsVX5eLmH0Zk"
+1513358177780	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513358178730	Marionette	INFO	Enabled via --marionette
+1513358191119	Marionette	INFO	Listening on port 45115
+1513358191184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513358191263	Marionette	DEBUG	Register listener.js for window 2147483649
+1513358193497	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513358193662	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513358193663	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181957, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513358200549	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513358214458	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 12902] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513358329854	geckodriver	INFO	geckodriver 0.19.1
+1513358329862	geckodriver	INFO	Listening on 127.0.0.1:37495
+1513358331170	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.V2k4fFpdYQtj"
+1513358333643	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513358334638	Marionette	INFO	Enabled via --marionette
+1513358345930	Marionette	INFO	Listening on port 44123
+1513358345978	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513358346078	Marionette	DEBUG	Register listener.js for window 2147483649
+1513358347539	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513358347678	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513358347679	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513358354529	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513358363548	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513358546767	geckodriver	INFO	geckodriver 0.19.1
+1513358546776	geckodriver	INFO	Listening on 127.0.0.1:42095
+1513358548078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oLGDHiGAp4Ul"
+1513358550664	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513358551701	Marionette	INFO	Enabled via --marionette
+1513358564235	Marionette	INFO	Listening on port 46035
+1513358564284	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513358564391	Marionette	DEBUG	Register listener.js for window 2147483649
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1513358617984	geckodriver	INFO	geckodriver 0.19.1
+1513358617990	geckodriver	INFO	Listening on 127.0.0.1:39807
+1513358619298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Dg7smO4uWmfi"
+1513358621859	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513358622905	Marionette	INFO	Enabled via --marionette
+1513358633615	Marionette	INFO	Listening on port 42651
+1513358633695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513358633763	Marionette	DEBUG	Register listener.js for window 2147483649
+1513358635258	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513358635378	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513358635379	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513358643381	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513358651192	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+1513358677108	geckodriver	INFO	geckodriver 0.19.1
+1513358677117	geckodriver	INFO	Listening on 127.0.0.1:49927
+1513358678425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.N6za5RJhjA1o"
+1513358681012	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513358681961	Marionette	INFO	Enabled via --marionette
+1513358692664	Marionette	INFO	Listening on port 33643
+1513358692749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513358692843	Marionette	DEBUG	Register listener.js for window 2147483649
+1513358694378	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513358694518	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513358694519	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513358700376	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513358703254	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1513358705771	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 13418] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513358947535	geckodriver	INFO	geckodriver 0.19.1
+1513358947543	geckodriver	INFO	Listening on 127.0.0.1:55529
+1513358948855	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mPAlWydV7hIk"
+1513358951366	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513358952371	Marionette	INFO	Enabled via --marionette
+1513358964174	Marionette	INFO	Listening on port 43535
+1513358964285	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513358964365	Marionette	DEBUG	Register listener.js for window 2147483649
+1513358965984	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513358966552	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513358966552	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513358974559	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513358982237	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 13558] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513359242831	geckodriver	INFO	geckodriver 0.19.1
+1513359242838	geckodriver	INFO	Listening on 127.0.0.1:33211
+1513359244150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.o53Fx4DbAwuk"
+1513359246624	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1513359247627	Marionette	INFO	Enabled via --marionette
+1513359257303	Marionette	INFO	Listening on port 34433
+1513359257375	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513359257460	Marionette	DEBUG	Register listener.js for window 2147483649
+1513359258895	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513359259028	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513359259028	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.bithumb.com/resources/js/jquery-1.9.1.min.js?v=171127181956, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+JavaScript warning: https://www.bithumb.com/resources/js/comm.min.js?v=171214113042, line 8: unreachable code after return statement
+1513359268970	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bithumb.com/"
+1513359280452	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bithumb.com/"
+[Child 13706] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
