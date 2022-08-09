@@ -1,4 +1,4 @@
-# Cryptocurrencies-Chart-Based-on-Python-Web-Crawling
+# Crypto-Chart
 
 1. Crawling data with python using scrapy and selenium and Storing the data in DB(MYSQL)
 
